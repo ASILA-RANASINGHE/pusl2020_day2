@@ -4,10 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node sever.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.30.1"
+  "packageManager": "pnpm@10.30.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASILA-RANASINGHE/pusl2020_day2.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ASILA-RANASINGHE/pusl2020_day2/issues"
+  },
+  "homepage": "https://github.com/ASILA-RANASINGHE/pusl2020_day2#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
